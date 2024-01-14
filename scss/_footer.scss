@@ -1,0 +1,17 @@
+footer {
+
+    .redes {
+        color: $color_fuentes;
+
+        &:hover {
+            font-size: 1.2rem;
+            color: $color_cobertura;
+        }
+    }
+}
+
+.footer {
+    border-top: $color_bordes 1px solid;
+    background-color: $color_principal;
+    color: $color_fuentes;
+}

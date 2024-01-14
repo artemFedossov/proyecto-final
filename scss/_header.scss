@@ -1,0 +1,30 @@
+header {
+
+    .logoWeb {
+        width: 75px;
+    }
+
+    h2 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: $color_fuentes;
+    }
+
+    .menu {
+        color: $color_fuentes;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $color_cobertura;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+    }
+}
+
+.fijo {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    background-color: $color_principal;
+}

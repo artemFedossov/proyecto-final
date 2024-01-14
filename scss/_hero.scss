@@ -1,0 +1,22 @@
+.hero {
+    background-image: url("../img/hero-fondo.jpg");
+    height: 100vh;
+    background-size: cover;
+
+    .font {
+        color: $color_fuentes;
+        text-transform: capitalize;
+        text-decoration: none;
+        font-size: 5rem;
+        font-family: bailenson;
+        position: relative;
+        width: 100px;
+        left: 10%;
+        top: 10%;
+
+        &:hover {
+            color: $color_cobertura;
+            font-size: 6rem;
+        }
+    }
+}
