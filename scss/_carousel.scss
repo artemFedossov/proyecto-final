@@ -1,0 +1,15 @@
+.posicionMapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.textoCarousel {
+    background-color: $color_principal;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 2px;
+    border-radius: 5px;
+}

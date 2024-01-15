@@ -1,0 +1,66 @@
+.alto {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorImagenes {
+    justify-content: center;
+
+    .seccionGaleria {
+        padding: 0;
+        width: 70vh;
+        height: 100%;
+        background-color: $color_principal;
+        padding: 1rem 4rem;
+        height: auto;
+        background-size: 100% 100%;
+
+       .cardImg {
+            object-fit: cover;
+            height: 100%;
+       }
+
+       .tituloTienda {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .cardTexto {
+                font-family: bailenson;
+                color: $color_fuentes;
+                font-size: 2.1rem;
+                text-decoration: none;
+
+                &:hover {
+                    text-shadow: 0 0 50px $color_sombra;
+                    color: $color_cobertura;
+                    font-weight: bold;
+                    font-size: 2.2rem;
+                }
+            }
+        }
+    
+    }
+}
+
+//estilo del titulo de las tiendas de ropa femenina y masculina
+
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: $color_fuentes;
+}
+
+.tituloRopa {
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+//estilo del modal
+
+.tituloModal {
+    color: $color_principal;
+    font-size: 1rem;
+}

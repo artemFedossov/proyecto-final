@@ -1,0 +1,10 @@
+.boton {
+    background-color: $color_bordes;
+    color: $color_fuentes;
+
+    &:hover {
+        background-color: $color_cobertura;
+        color: $color_fuentes;
+    }
+}
+

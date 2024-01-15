@@ -1,0 +1,13 @@
+.fondoAcordion {
+    background-color: $color_principal;
+}
+
+.bordes {
+    border: solid $color_bordes 1px;
+
+    .imgRopa {
+        width: 100%;
+        height: 40vh;
+        object-fit: contain;
+    }    
+}
