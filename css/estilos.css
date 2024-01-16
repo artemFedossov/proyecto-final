@@ -6,6 +6,19 @@ body {
   background-color: black;
 }
 
+.tituloEnvio {
+  font-size: 1.5rem;
+  color: white;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+.tituloContactos {
+  padding: 20px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
 header .logoWeb {
   width: 75px;
 }
@@ -158,6 +171,46 @@ h2 {
 .boton:hover {
   background-color: rgb(183, 24, 223);
   color: white;
+}
+
+.botonEnvio {
+  border: none;
+  width: 75%;
+  height: 100%;
+  border-radius: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(183, 24, 223);
+  color: white;
+}
+.botonEnvio:hover {
+  background-color: rgb(183, 24, 223);
+}
+
+.labelContactos {
+  color: white;
+  padding: 5px;
+}
+
+.inputContactos {
+  width: 30%;
+  border-radius: 0.5rem;
+  margin-bottom: 10px;
+}
+.inputContactos:focus {
+  border-color: rgb(183, 24, 223);
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgb(183, 24, 223);
+  outline: 0 none;
+}
+
+.inputContactosSexo {
+  width: 5%;
+}
+
+@media (max-width: 600px) {
+  .inputContactos {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

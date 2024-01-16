@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="e2">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
     <!-- Iconos - Boostrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         <div class="container-fluid">
             <a class="navbar-brand d-flex justify-content-end align-items-center">
                 <img class="logoWeb" src="../img/logo-web.png" alt="logo de la web">
-                <h1>tienda de ropa</h1>
+                <h2>tienda de ropa</h2>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,45 +48,49 @@
         </div>
     </header>
 
-    <!-- FORMS -->
+    <main>
 
-    <div class="container-fluid">
+        <!-- FORMS -->
+        <form action="">
+            <div class="container-fluid">
 
-        <h2 class="tituloEnvio">ingrese informacion del destinatario</h2>
+                <h2 class="tituloEnvio">ingrese informacion del destinatario</h2>
 
-        <div class="row">
-            <div class="mb-3 col-md-6 col-lg-4">
-                <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
-            </div>
-            <div class="mb-3 col-md-6 col-lg-4">
-                <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
-            </div>
-            <div class="mb-3 col-md-6 col-lg-4">
-                <input type="email" class="form-control" id="inputEmail" placeholder="Tu direccion de Correo">
-            </div>
-        </div>
+                <div class="row">
+                    <div class="mb-3 col-md-6 col-lg-4">
+                        <input type="text" class="form-control" id="inputNombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="mb-3 col-md-6 col-lg-4">
+                        <input type="text" class="form-control" id="inputApellido" placeholder="Apellido" required>
+                    </div>
+                    <div class="mb-3 col-md-6 col-lg-4">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Tu direccion de Correo" required>
+                    </div>
+                </div>
 
-        <div class="row">
-            <div class="mb-3 col-md-6 col-lg-8">
-                <input type="text" class="form-control" id="inputDireccion" placeholder="Direccion">
-            </div>
-            <div class="mb-3 col-md-6 col-lg-4">
-                <input type="text" class="form-control" id="inputCiudad" placeholder="Ciudad">
-            </div>
-        </div>
+                <div class="row">
+                    <div class="mb-3 col-md-6 col-lg-8">
+                        <input type="text" class="form-control" id="inputDireccion" placeholder="Direccion" required>
+                    </div>
+                    <div class="mb-3 col-md-6 col-lg-4">
+                        <input type="text" class="form-control" id="inputCiudad" placeholder="Ciudad" required>
+                    </div>
+                </div>
 
-        <div class="row">
-            <div class="mb-3 col-md-6 col-lg-4">
-                <input type="text" class="form-control" id="inputCodigoPostal" placeholder="Codigo Postal">
+                <div class="row">
+                    <div class="mb-3 col-md-6 col-lg-4">
+                        <input type="text" class="form-control" id="inputCodigoPostal" placeholder="Codigo Postal" required>
+                    </div>
+                    <div class="mb-3 col-md-6 col-lg-4">
+                        <input type="number" class="form-control" id="inputCompra" placeholder="Id de Compra" required>
+                    </div>
+                    <div class="mb-3 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+                        <input type="submit" value="Generar" class="botonEnvio" required>
+                    </div>
+                </div>
             </div>
-            <div class="mb-3 col-md-6 col-lg-4">
-                <input type="number" class="form-control" id="inputCompra" placeholder="Id de Compra">
-            </div>
-            <div class="mb-3 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
-                <button type="button" class="botonEnvio">Generar</button>
-            </div>
-        </div>
-    </div>
+        </form>
+    </main>
 
     <!-- FOOTER -->
 
