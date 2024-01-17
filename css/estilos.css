@@ -32,7 +32,7 @@ header .menu {
   text-transform: uppercase;
 }
 header .menu:hover {
-  color: rgb(183, 24, 223);
+  color: rgb(141, 18, 172);
   font-size: 1.1rem;
   font-weight: bold;
 }
@@ -61,7 +61,7 @@ header .menu:hover {
   top: 10%;
 }
 .hero .font:hover {
-  color: rgb(183, 24, 223);
+  color: rgb(141, 18, 172);
   font-size: 6rem;
 }
 
@@ -70,7 +70,7 @@ footer .redes {
 }
 footer .redes:hover {
   font-size: 1.2rem;
-  color: rgb(183, 24, 223);
+  color: rgb(141, 18, 172);
 }
 
 .footer {
@@ -115,7 +115,7 @@ footer .redes:hover {
 }
 .contenedorImagenes .seccionGaleria .tituloTienda .cardTexto:hover {
   text-shadow: 0 0 50px #fff;
-  color: rgb(183, 24, 223);
+  color: rgb(141, 18, 172);
   font-weight: bold;
   font-size: 2.2rem;
 }
@@ -169,7 +169,7 @@ h2 {
   color: white;
 }
 .boton:hover {
-  background-color: rgb(183, 24, 223);
+  background-color: rgb(141, 18, 172);
   color: white;
 }
 
@@ -184,7 +184,7 @@ h2 {
   color: white;
 }
 .botonEnvio:hover {
-  background-color: rgb(183, 24, 223);
+  background-color: rgb(141, 18, 172);
 }
 
 .labelContactos {
@@ -198,8 +198,8 @@ h2 {
   margin-bottom: 10px;
 }
 .inputContactos:focus {
-  border-color: rgb(183, 24, 223);
-  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgb(183, 24, 223);
+  border-color: rgb(141, 18, 172);
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgb(141, 18, 172);
   outline: 0 none;
 }
 
