@@ -6,6 +6,11 @@ body {
   background-color: black;
 }
 
+.pantallaEnvios {
+  height: 80vh;
+  padding-top: 120px;
+}
+
 .tituloEnvio {
   font-size: 1.5rem;
   color: white;
@@ -22,7 +27,7 @@ body {
 header .logoWeb {
   width: 75px;
 }
-header h2 {
+header h1 {
   font-size: 2rem;
   text-transform: uppercase;
   color: white;
@@ -90,12 +95,10 @@ footer .redes:hover {
   justify-content: center;
 }
 .contenedorImagenes .seccionGaleria {
-  padding: 0;
   width: 70vh;
-  height: 100%;
+  height: auto;
   background-color: black;
   padding: 1rem 4rem;
-  height: auto;
   background-size: 100% 100%;
 }
 .contenedorImagenes .seccionGaleria .cardImg {
@@ -210,6 +213,11 @@ h2 {
 @media (max-width: 600px) {
   .inputContactos {
     width: 100%;
+  }
+  .pantalla {
+    height: auto;
+    padding-bottom: 100px;
+    padding-top: 1px;
   }
 }
 

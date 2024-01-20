@@ -9,12 +9,10 @@
     justify-content: center;
 
     .seccionGaleria {
-        padding: 0;
         width: 70vh;
-        height: 100%;
+        height: auto;
         background-color: $color_principal;
         padding: 1rem 4rem;
-        height: auto;
         background-size: 100% 100%;
 
        .cardImg {
