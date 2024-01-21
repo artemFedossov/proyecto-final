@@ -1,4 +1,12 @@
 @media (max-width: 600px){
+
+    header {
+        h1 {
+            font-size: 1.5rem ;
+        }
+    }
+
+    
     .inputContactos {
         width: 100%;
     }
@@ -9,8 +17,9 @@
         padding-top: 1px;
     }
 
-    h1 {
-        font-size: 16px;
+    .pantallaEnvios {
+        height: 80vh;
+        padding-top: 1px;
     }
-    
+
 }
