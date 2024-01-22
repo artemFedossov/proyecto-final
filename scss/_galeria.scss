@@ -1,8 +1,6 @@
 .alto {
     height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-direccion(flex, center, center);
 }
 
 .contenedorImagenes {
@@ -21,9 +19,7 @@
        }
 
        .tituloTienda {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex-direccion(flex, center, center);
             
             .cardTexto {
                 font-family: bailenson;

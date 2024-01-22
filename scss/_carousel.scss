@@ -1,8 +1,5 @@
 .posicionMapa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    @include flex-direccion(flex, center, center);
 }
 
 .textoCarousel {
