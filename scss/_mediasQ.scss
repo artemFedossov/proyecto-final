@@ -1,4 +1,4 @@
-@media (max-width: 500px){
+@media (max-width: 550px){
 
     header {
         h1 {
@@ -21,4 +21,26 @@
         padding-top: 1px;
     }
 
+    .ocultar {
+        display: none;
+    }
+
+    .textoMobile {
+        font-size: 1.5rem;
+        color: $color-fuentes;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: flex;
+        border: $color_bordes 2px solid;
+        padding: 30px 10px;
+        margin: 30px 0px;
+        border-radius: 8px;
+
+        &:hover {
+            text-shadow: 0 0 50px $color_sombra;
+            color: $color_cobertura;
+            font-weight: bold;
+            font-size: 1.6rem;
+        }
+    }
 }

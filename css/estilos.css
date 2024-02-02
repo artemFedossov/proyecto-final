@@ -2,13 +2,12 @@
   font-family: "bailenson";
   src: url(../font/Bailenson.ttf);
 }
-body {
-  background-color: black;
+* {
+  box-sizing: border-box;
 }
 
-.pantallaEnvios {
-  height: 80vh;
-  padding-top: 120px;
+body {
+  background-color: black;
 }
 
 .tituloEnvio {
@@ -123,6 +122,10 @@ footer .redes:hover {
   font-size: 2.2rem;
 }
 
+.textoMobile {
+  display: none;
+}
+
 h2 {
   font-size: 2rem;
   text-transform: uppercase;
@@ -219,7 +222,7 @@ h2 {
   width: 5%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   header h1 {
     font-size: 1.2rem;
   }
@@ -234,6 +237,26 @@ h2 {
   .pantallaEnvios {
     height: 80vh;
     padding-top: 1px;
+  }
+  .ocultar {
+    display: none;
+  }
+  .textoMobile {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    border: rgb(183, 24, 223) 2px solid;
+    padding: 30px 10px;
+    margin: 30px 0px;
+    border-radius: 8px;
+  }
+  .textoMobile:hover {
+    text-shadow: 0 0 50px #fff;
+    color: rgb(141, 18, 172);
+    font-weight: bold;
+    font-size: 1.6rem;
   }
 }
 
