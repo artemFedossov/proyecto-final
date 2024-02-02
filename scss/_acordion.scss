@@ -10,4 +10,15 @@
         height: 40vh;
         object-fit: contain;
     }    
+
+    .pos {
+        display: flex;
+        justify-content: space-between;
+
+        .precio {
+            font-size: 1.5rem;
+            color: $color_bordes;
+            font-weight: 400;
+        }
+    }
 }

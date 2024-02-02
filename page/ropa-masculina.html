@@ -14,6 +14,8 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- Iconos - Boostrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- Animacion -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
@@ -23,7 +25,7 @@
         <div class="container-fluid">
             <div class="navbar-brand d-flex justify-content-end align-items-center">
                 <img class="logoWeb" src="../img/logo-web.png" alt="logo de la web">
-                <h1>estilo para ellos</h1>
+                <h1 class="animate__animated animate__pulse animate__infinite">estilo para ellos</h1>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,19 +33,19 @@
             </button>
             <nav class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link menu" href="../index.html">Inicio</a>
+                    <li class="nav-item animate__animated animate__backInLeft">
+                        <a class="nav-link menu" href="../index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link menu" href="galeria.html">Galería</a>
+                    <li class="nav-item animate__animated animate__backInLeft animate__delay-1s">
+                        <a class="nav-link menu" href="galeria.html">Galeria</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item animate__animated animate__backInLeft animate__delay-2s">
                         <a class="nav-link menu" href="sucursales.html">Sucursales</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link menu" href="envios.html">Envíos</a>
+                    <li class="nav-item animate__animated animate__backInLeft animate__delay-3s">
+                        <a class="nav-link menu" href="envios.html">Envios</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item animate__animated animate__backInLeft animate__delay-4s">
                         <a class="nav-link menu" href="contactos.html">Contactos</a>
                     </li>
                 </ul>
@@ -84,10 +86,13 @@
                                                 <option value="3">44</option>
                                             </select>
                                         </p>
-                                        <button type="button" class="btn boton" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
-                                            Añadir al Carrito
-                                        </button>
+                                        <div class="pos">
+                                            <button type="button" class="btn boton" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Añadir al Carrito
+                                            </button>
+                                            <label class="precio" for="">$ 32.00</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -105,10 +110,13 @@
                                                 <option value="3">44</option>
                                             </select>
                                         </p>
-                                        <button type="button" class="btn boton" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
-                                            Añadir al Carrito
-                                        </button>
+                                        <div class="pos">
+                                            <button type="button" class="btn boton" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Añadir al Carrito
+                                            </button>
+                                            <label class="precio" for="">$ 35.00</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -126,10 +134,13 @@
                                                 <option value="3">44</option>
                                             </select>
                                         </p>
-                                        <button type="button" class="btn boton" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
-                                            Añadir al Carrito
-                                        </button>
+                                        <div class="pos">
+                                            <button type="button" class="btn boton" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Añadir al Carrito
+                                            </button>
+                                            <label class="precio" for="">$ 29.00</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -147,10 +158,13 @@
                                                 <option value="3">44</option>
                                             </select>
                                         </p>
-                                        <button type="button" class="btn boton" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
-                                            Añadir al Carrito
-                                        </button>
+                                        <div class="pos">
+                                            <button type="button" class="btn boton" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Añadir al Carrito
+                                            </button>
+                                            <label class="precio" for="">$ 36.00</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -185,10 +199,13 @@
                                                 <option value="3">Extra Large</option>
                                             </select>
                                         </p>
-                                        <button type="button" class="btn boton" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
-                                            Añadir al Carrito
-                                        </button>
+                                        <div class="pos">
+                                            <button type="button" class="btn boton" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Añadir al Carrito
+                                            </button>
+                                            <label class="precio" for="">$ 51.00</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -206,10 +223,13 @@
                                                 <option value="3">44</option>
                                             </select>
                                         </p>
-                                        <button type="button" class="btn boton" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
-                                            Añadir al Carrito
-                                        </button>
+                                        <div class="pos">
+                                            <button type="button" class="btn boton" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Añadir al Carrito
+                                            </button>
+                                            <label class="precio" for="">$ 55.00</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -227,10 +247,13 @@
                                                 <option value="3">44</option>
                                             </select>
                                         </p>
-                                        <button type="button" class="btn boton" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
-                                            Añadir al Carrito
-                                        </button>
+                                        <div class="pos">
+                                            <button type="button" class="btn boton" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Añadir al Carrito
+                                            </button>
+                                            <label class="precio" for="">$ 58.00</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -248,10 +271,13 @@
                                                 <option value="3">44</option>
                                             </select>
                                         </p>
-                                        <button type="button" class="btn boton" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
-                                            Añadir al Carrito
-                                        </button>
+                                        <div class="pos">
+                                            <button type="button" class="btn boton" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Añadir al Carrito
+                                            </button>
+                                            <label class="precio" for="">$ 49.00</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -285,10 +311,13 @@
                                                 <option value="3">Extra Large</option>
                                             </select>
                                         </p>
-                                        <button type="button" class="btn boton" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
-                                            Añadir al Carrito
-                                        </button>
+                                        <div class="pos">
+                                            <button type="button" class="btn boton" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Añadir al Carrito
+                                            </button>
+                                            <label class="precio" for="">$ 22.00</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -306,10 +335,13 @@
                                                 <option value="3">44</option>
                                             </select>
                                         </p>
-                                        <button type="button" class="btn boton" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
-                                            Añadir al Carrito
-                                        </button>
+                                        <div class="pos">
+                                            <button type="button" class="btn boton" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Añadir al Carrito
+                                            </button>
+                                            <label class="precio" for="">$ 26.00</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -327,10 +359,13 @@
                                                 <option value="3">44</option>
                                             </select>
                                         </p>
-                                        <button type="button" class="btn boton" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
-                                            Añadir al Carrito
-                                        </button>
+                                        <div class="pos">
+                                            <button type="button" class="btn boton" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Añadir al Carrito
+                                            </button>
+                                            <label class="precio" for="">$ 23.00</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -348,10 +383,13 @@
                                                 <option value="3">44</option>
                                             </select>
                                         </p>
-                                        <button type="button" class="btn boton" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
-                                            Añadir al Carrito
-                                        </button>
+                                        <div class="pos">
+                                            <button type="button" class="btn boton" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Añadir al Carrito
+                                            </button>
+                                            <label class="precio" for="">$ 20.00</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" 
-        content="Explora la elegancia y versatilidad de la moda femenina en Estilo Libre. Descubre 
+  <meta name="description" content="Explora la elegancia y versatilidad de la moda femenina en Estilo Libre. Descubre 
         prendas diseñadas para destacar la individualidad y estilo de cada mujer">
   <title>Estilo Libre | Indumentaria Femenina</title>
 
@@ -14,6 +13,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!-- Iconos - Boostrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <!-- Animacion -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <!-- CSS -->
   <link rel="stylesheet" href="../css/estilos.css">
 </head>
@@ -23,7 +24,7 @@
     <div class="container-fluid">
       <div class="navbar-brand d-flex justify-content-end align-items-center">
         <img class="logoWeb" src="../img/logo-web.png" alt="logo de la web">
-        <h1>estilo para ellas</h1>
+        <h1 class="animate__animated animate__pulse animate__infinite">estilo para ellas</h1>
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,19 +32,19 @@
       </button>
       <nav class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link menu" href="../index.html">Inicio</a>
+          <li class="nav-item animate__animated animate__backInLeft">
+            <a class="nav-link menu" href="../index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link menu" href="galeria.html">Galería</a>
+          <li class="nav-item animate__animated animate__backInLeft animate__delay-1s">
+            <a class="nav-link menu" href="galeria.html">Galeria</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item animate__animated animate__backInLeft animate__delay-2s">
             <a class="nav-link menu" href="sucursales.html">Sucursales</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link menu" href="envios.html">Envíos</a>
+          <li class="nav-item animate__animated animate__backInLeft animate__delay-3s">
+            <a class="nav-link menu" href="envios.html">Envios</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item animate__animated animate__backInLeft animate__delay-4s">
             <a class="nav-link menu" href="contactos.html">Contactos</a>
           </li>
         </ul>
@@ -62,12 +63,13 @@
     <div class="accordion container-fluid" id="accordionExample">
       <div class="accordion-item fondoAcordion bordes">
         <h3 class="accordion-header" id="haedingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
             Jeans
           </button>
         </h3>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="haedingOne" data-bs-parent="#accordionExample">
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="haedingOne"
+          data-bs-parent="#accordionExample">
           <div class="accordion-body">
 
             <!-- CARDS -->
@@ -85,9 +87,13 @@
                         <option value="3">44</option>
                       </select>
                     </p>
-                    <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Añadir al Carrito
-                    </button>
+                    <div class="pos">
+                      <button type="button" class="btn boton" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal">
+                          Añadir al Carrito
+                      </button>
+                      <label class="precio" for="">$ 32.00</label>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -105,9 +111,13 @@
                         <option value="3">44</option>
                       </select>
                     </p>
-                    <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Añadir al Carrito
-                    </button>
+                    <div class="pos">
+                      <button type="button" class="btn boton" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal">
+                          Añadir al Carrito
+                      </button>
+                      <label class="precio" for="">$ 36.00</label>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -125,9 +135,13 @@
                         <option value="3">44</option>
                       </select>
                     </p>
-                    <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Añadir al Carrito
-                    </button>
+                    <div class="pos">
+                      <button type="button" class="btn boton" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal">
+                          Añadir al Carrito
+                      </button>
+                      <label class="precio" for="">$ 38.00</label>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -145,9 +159,13 @@
                         <option value="3">44</option>
                       </select>
                     </p>
-                    <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Añadir al Carrito
-                    </button>
+                    <div class="pos">
+                      <button type="button" class="btn boton" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal">
+                          Añadir al Carrito
+                      </button>
+                      <label class="precio" for="">$ 31.00</label>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -182,9 +200,13 @@
                         <option value="3">Extra Large</option>
                       </select>
                     </p>
-                    <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Añadir al Carrito
-                    </button>
+                    <div class="pos">
+                      <button type="button" class="btn boton" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal">
+                          Añadir al Carrito
+                      </button>
+                      <label class="precio" for="">$ 52.00</label>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -202,9 +224,13 @@
                         <option value="3">44</option>
                       </select>
                     </p>
-                    <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Añadir al Carrito
-                    </button>
+                    <div class="pos">
+                      <button type="button" class="btn boton" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal">
+                          Añadir al Carrito
+                      </button>
+                      <label class="precio" for="">$ 52.00</label>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -222,9 +248,13 @@
                         <option value="3">44</option>
                       </select>
                     </p>
-                    <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Añadir al Carrito
-                    </button>
+                    <div class="pos">
+                      <button type="button" class="btn boton" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal">
+                          Añadir al Carrito
+                      </button>
+                      <label class="precio" for="">$ 51.00</label>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -242,9 +272,13 @@
                         <option value="3">44</option>
                       </select>
                     </p>
-                    <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Añadir al Carrito
-                    </button>
+                    <div class="pos">
+                      <button type="button" class="btn boton" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal">
+                          Añadir al Carrito
+                      </button>
+                      <label class="precio" for="">$ 56.00</label>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -278,9 +312,13 @@
                         <option value="3">Extra Large</option>
                       </select>
                     </p>
-                    <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Añadir al Carrito
-                    </button>
+                    <div class="pos">
+                      <button type="button" class="btn boton" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal">
+                          Añadir al Carrito
+                      </button>
+                      <label class="precio" for="">$ 23.00</label>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -298,9 +336,13 @@
                         <option value="3">44</option>
                       </select>
                     </p>
-                    <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Añadir al Carrito
-                    </button>
+                    <div class="pos">
+                      <button type="button" class="btn boton" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal">
+                          Añadir al Carrito
+                      </button>
+                      <label class="precio" for="">$ 29.00</label>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -318,9 +360,13 @@
                         <option value="3">44</option>
                       </select>
                     </p>
-                    <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Añadir al Carrito
-                    </button>
+                    <div class="pos">
+                      <button type="button" class="btn boton" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal">
+                          Añadir al Carrito
+                      </button>
+                      <label class="precio" for="">$ 22.00</label>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -338,9 +384,13 @@
                         <option value="3">44</option>
                       </select>
                     </p>
-                    <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Añadir al Carrito
-                    </button>
+                    <div class="pos">
+                      <button type="button" class="btn boton" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal">
+                          Añadir al Carrito
+                      </button>
+                      <label class="precio" for="">$ 24.00</label>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -383,17 +433,17 @@
       </div>
 
       <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="redes" target="_blank" href="https://www.instagram.com/" aria-label="logo instagram"><i
-              class="bi bi-instagram"></i><svg class="bi" width="24" height="24">
-              <use xlink:href="#instagram"/>
+        <li class="ms-3"><a class="redes" target="_blank" href="https://www.instagram.com/"
+            aria-label="logo instagram"><i class="bi bi-instagram"></i><svg class="bi" width="24" height="24">
+              <use xlink:href="#instagram" />
             </svg></a></li>
         <li class="ms-3"><a class="redes" target="_blank" href="https://web.whatsapp.com/" aria-label="logo whatsapp"><i
               class="bi bi-whatsapp"></i><svg class="bi" width="24" height="24">
-              <use xlink:href="#whatsapp"/>
+              <use xlink:href="#whatsapp" />
             </svg></a></li>
-        <li class="ms-3"><a class="redes" target="_blank" href="https://www.facebook.com/?locale=es_LA" aria-label="logo facebook" ><i
-              class="bi bi-facebook"></i><svg class="bi" width="24" height="24">
-              <use xlink:href="#facebook"/>
+        <li class="ms-3"><a class="redes" target="_blank" href="https://www.facebook.com/?locale=es_LA"
+            aria-label="logo facebook"><i class="bi bi-facebook"></i><svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook" />
             </svg></a></li>
       </ul>
     </footer>

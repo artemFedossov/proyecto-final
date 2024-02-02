@@ -151,6 +151,15 @@ h2 {
   height: 40vh;
   object-fit: contain;
 }
+.bordes .pos {
+  display: flex;
+  justify-content: space-between;
+}
+.bordes .pos .precio {
+  font-size: 1.5rem;
+  color: rgb(183, 24, 223);
+  font-weight: 400;
+}
 
 .posicionMapa {
   display: flex;
